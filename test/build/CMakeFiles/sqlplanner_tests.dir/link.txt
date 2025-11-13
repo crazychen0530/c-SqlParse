@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/sqlplanner_tests.dir/SqlDistributedPlannerTest.cpp.o -o sqlplanner_tests  -Wl,-rpath,/home/fuckingchen/exceeddata2/sql/build /home/fuckingchen/exceeddata2/sql/build/libsqlparser.so /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread 
