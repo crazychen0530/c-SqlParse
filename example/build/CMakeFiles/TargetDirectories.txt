@@ -1,0 +1,3 @@
+/home/fuckingchen/exceeddata2/sql/example/build/CMakeFiles/Sqltest.dir
+/home/fuckingchen/exceeddata2/sql/example/build/CMakeFiles/edit_cache.dir
+/home/fuckingchen/exceeddata2/sql/example/build/CMakeFiles/rebuild_cache.dir

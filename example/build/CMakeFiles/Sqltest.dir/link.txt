@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Sqltest.dir/test.cc.o -o Sqltest   -L/home/fuckingchen/exceeddata2/sql/example/../build  -Wl,-rpath,/home/fuckingchen/exceeddata2/sql/example/../build -lsqlparser 
