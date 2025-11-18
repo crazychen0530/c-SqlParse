@@ -1,0 +1,12 @@
+# build 临时文件
+build/
+*.o
+*.a
+*.so
+*.out
+
+# CMake 临时
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile

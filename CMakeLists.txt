@@ -16,6 +16,7 @@ add_library(sqlparser SHARED
     src/SqlDistributedPlanner.cpp
     src/SqlQueryPlanner.cpp
     src/SqlStatement.cpp
+    sqlparser.cc
 
 )
 
@@ -23,6 +24,7 @@ add_library(sqlparser SHARED
 target_include_directories(sqlparser
     PUBLIC
     ${CMAKE_SOURCE_DIR}/include
+    ${CMAKE_SOURCE_DIR}
     /home/fuckingchen/exceeddata2/exd-compute-lib-v2/source/exd/pervasive/iot/common/exception
     /home/fuckingchen/exceeddata2/exd-compute-lib-v2/source/exd/pervasive/iot/common/util
     /home/fuckingchen/exceeddata2/exd-compute-lib-v2/source/exd/pervasive/iot/common/evaluate/expression
@@ -36,8 +38,9 @@ target_include_directories(sqlparser
 
 
 #链接libexd.so的动态库
-find_library(EXD_LIB exd PATHS /home/fuckingchen/exceeddata2/exd-compute-lib-v2/source/build/exd)
-target_link_libraries(sqlparser PUBLIC ${EXD_LIB})
+target_link_libraries(sqlparser PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/libexd.a
+)
 
 set_target_properties(sqlparser PROPERTIES
     BUILD_RPATH "/home/fuckingchen/exceeddata2/exd-compute-lib-v2/source/build/exd"

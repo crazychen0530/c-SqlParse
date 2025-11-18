@@ -1,5 +1,5 @@
-#ifndef SQL_PARSER_H
-#define SQL_PARSER_H
+#ifndef SQL_QUERY_PARSER_H
+#define SQL_QUERY_PARSER_H
 
 #include "SqlStatement.h"
 #include "EngineException.h"

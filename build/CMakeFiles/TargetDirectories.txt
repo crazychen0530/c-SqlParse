@@ -1,8 +1,0 @@
-/home/fuckingchen/exceeddata2/sql/build/CMakeFiles/sqlparser.dir
-/home/fuckingchen/exceeddata2/sql/build/CMakeFiles/edit_cache.dir
-/home/fuckingchen/exceeddata2/sql/build/CMakeFiles/rebuild_cache.dir
-/home/fuckingchen/exceeddata2/sql/build/test/CMakeFiles/SqlDistributedPlannerTest.dir
-/home/fuckingchen/exceeddata2/sql/build/test/CMakeFiles/SqlQueryParserTest.dir
-/home/fuckingchen/exceeddata2/sql/build/test/CMakeFiles/SqlQueryPlannerTest.dir
-/home/fuckingchen/exceeddata2/sql/build/test/CMakeFiles/edit_cache.dir
-/home/fuckingchen/exceeddata2/sql/build/test/CMakeFiles/rebuild_cache.dir
